@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/testing-vite-deploy/' element={<Home />} />
-          <Route path='/testing' element={<Testing />} />
+          <Route path='/testing-vite-deploy/tes' element={<Testing />} />
         </Routes>
       </BrowserRouter>
     </>
