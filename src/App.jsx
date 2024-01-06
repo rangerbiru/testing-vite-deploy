@@ -11,9 +11,9 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/testing-vite-deploy/'>
         <Routes>
-          <Route path='/testing-vite-deploy/' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/tes' element={<Testing />} />
         </Routes>
       </BrowserRouter>
