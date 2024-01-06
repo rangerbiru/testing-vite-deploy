@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <h2>Halaman Home</h2>
-            <Link to={'/testing-vite-deploy/tes'}>Ke Tes</Link>
+            <Link to={'/tes'}>Ke Tes</Link>
         </div>
     )
 }

@@ -13,8 +13,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/testing-vite-deploy/' element={<Home />} />
-          <Route path='/testing-vite-deploy/tes' element={<Testing />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/tes' element={<Testing />} />
         </Routes>
       </BrowserRouter>
     </>
